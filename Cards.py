@@ -19,7 +19,7 @@ class Card:
 
 
     def display(self):
-        # Simple represenation of the card to be displayed on the screen
+        # Simple representation of the card to be displayed on the screen
         print(f'{self.name} of {self.color}\n')
 
 
@@ -197,6 +197,7 @@ class Human(Player):
     def bet_reset(self):
         # Reeting the value of the bet to 0, used when going to a new hand
         self.bet_amount = 0
+
 
 class Machine(Player):
     # Machine Player, no interaction, decisions are algorithm driven
