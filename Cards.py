@@ -3,6 +3,7 @@ from random import randint
 from BlackJack import closest_21
 from BlackJack import yes_no
 
+#Version from the PC
 
 class Card:
     # Represent a card in the game, there are 52 of them
